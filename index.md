@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/technology/goland/1727608104.md
+      link: /docs/developer/goland/1727608104.md
     - theme: alt
       text: 了解作者
       link: /
