@@ -11,6 +11,10 @@ export default defineConfig({
 
     themeConfig: {
 
+        logo: '/public/logo_reverse_none_back.png',
+
+        siteTitle: 'Reverse',
+
         footer: {
             message: 'Released under the MIT License.',
             copyright: 'Copyright © 2024-present Reverse'
@@ -18,18 +22,21 @@ export default defineConfig({
 
         nav: [
             { text: '首页', link: '/' },
+            { text: '关于', link: '/1' },
+            { text: '文档', link: '/2' },
         ],
 
         sidebar: {
             '/docs/developer/goland/': [
                 {
-                    text: 'Goland篇',
+                    text: 'Goland代码',
                     items: [
-                        { text: '[代码] 输出彩色日志', link: '/docs/developer/goland/1727608104.md' },
+                        { text: '【代码】输出彩色日志', link: '/docs/developer/goland/1727608104.md' },
                     ]
                 }
             ],
         },
+
 
         socialLinks: [
             { icon: 'github', link: 'https://github.com/ReverseHot' }
