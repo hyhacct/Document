@@ -23,6 +23,17 @@ jobs:
         npm install  # 安装依赖
         npm run docs:build  # 执行构建
 
+    - name: Set up SSH
+      env:
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # 从 GitHub Secrets 获取 SSH 私钥
+        SERVER_IP: ${{ secrets.SERVER_IP }}  # 从 GitHub Secrets 获取服务器 IP
+        SERVER_USER: ${{ secrets.SERVER_USER }}  # 从 GitHub Secrets 获取服务器用户名
+      run: |
+        mkdir -p ~/.ssh  # 创建 .ssh 目录
+        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa  # 写入私钥
+        chmod 600 ~/.ssh/id_rsa  # 设置权限
+        ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts  # 添加服务器公钥
+
     - name: Deploy to server
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # 从 GitHub Secrets 获取 SSH 私钥
