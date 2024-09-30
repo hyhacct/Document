@@ -38,11 +38,8 @@ jobs:
         SERVER_IP: ${{ secrets.SERVER_IP }}  # 从 GitHub Secrets 获取服务器 IP
         SERVER_USER: ${{ secrets.SERVER_USER }}  # 从 GitHub Secrets 获取服务器用户名
       run: |
-        ls ./
-        
-
         # 先删除原有文件
         ssh $SERVER_USER@$SERVER_IP "sudo rm -rf /opt/nginx/www/*"
 
         # 将构建好的文件传输到服务器
-        scp -r ./dist/* $SERVER_USER@$SERVER_IP:/opt/nginx/www/
+        scp -r ./.vitepress/dist/* $SERVER_USER@$SERVER_IP:/opt/nginx/www/
