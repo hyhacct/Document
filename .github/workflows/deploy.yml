@@ -27,7 +27,6 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # 从 GitHub Secrets 获取 SSH 私钥
         SERVER_IP: ${{ secrets.SERVER_IP }}  # 从 GitHub Secrets 获取服务器 IP
-        SERVER_USER: ${{ secrets.SERVER_USER }}  # 从 GitHub Secrets 获取服务器用户名
       run: |
         mkdir -p ~/.ssh  # 创建 .ssh 目录
         echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa  # 写入私钥
@@ -36,10 +35,12 @@ jobs:
 
     - name: Deploy to server
       env:
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # 从 GitHub Secrets 获取 SSH 私钥
         SERVER_IP: ${{ secrets.SERVER_IP }}  # 从 GitHub Secrets 获取服务器 IP
         SERVER_USER: ${{ secrets.SERVER_USER }}  # 从 GitHub Secrets 获取服务器用户名
-      run: |        
+      run: |
+        ls ./
+        
+
         # 先删除原有文件
         ssh $SERVER_USER@$SERVER_IP "sudo rm -rf /opt/nginx/www/*"
 
