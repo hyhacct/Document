@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Reverse"
   text: "学无止境"
-  tagline: 野生的技术文档，包含Vue，React，NodeJs，Shell，Goland，易语言, 运维 等。
+  tagline: 你可以看到 Vue，React，NodeJs，Shell，Goland，易语言, 运维 等相关技术。
   actions:
     - theme: brand
       text: 开始阅读
