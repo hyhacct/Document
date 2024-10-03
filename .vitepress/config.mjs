@@ -11,7 +11,7 @@ export default defineConfig({
 
     themeConfig: {
 
-        logo: '/public/logo_reverse_none_back.png',
+        logo: '/logo_reverse_none_back.png',
 
         siteTitle: 'Reverse',
 
@@ -22,7 +22,7 @@ export default defineConfig({
 
         nav: [
             { text: '首页', link: '/' },
-            { text: '关于', link: '/1' },
+            { text: '我的', link: '/docs/my/1727927062.md' },
             { text: '文档', link: '/2' },
         ],
 
