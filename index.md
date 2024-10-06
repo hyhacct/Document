@@ -5,14 +5,11 @@ layout: home
 hero:
   name: "Reverse"
   text: "学无止境"
-  tagline: 记录了一些 Vue，React，NodeJs，Shell，Goland，易语言, 运维 等学习笔记。
+  tagline: Vue，React，NodeJs，Shell，Goland，易语言，运维，好记性不如烂文档。
   actions:
     - theme: brand
       text: 开始阅读
-      link: /docs/developer/goland/1727608104.md
-    - theme: alt
-      text: 了解作者
-      link: /
+      link: /docs/developer/index.md
 
 
 features:
@@ -21,6 +18,6 @@ features:
   - title: Vue
     details: 不擅长，但是也不弱。
   - title: React
-    details: 刚入门，还在摸索中。
+    details: 刚入门，还在摸索。
 ---
 
