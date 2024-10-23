@@ -7,7 +7,7 @@ export default defineConfig({
 
     title: "Reverse Docs",
 
-    description: "野生的技术文档，包含Vue，React，NodeJs，Shell，Goland，易语言, 运维 等",
+    description: "🚀 用Go语言搭建火箭，Vue.js让前端起飞！",
 
     themeConfig: {
 
@@ -16,25 +16,31 @@ export default defineConfig({
         siteTitle: 'Reverse',
 
 
-
-        footer: {
-            message: 'Released under the MIT License.',
-            copyright: 'Copyright © 2024-present Reverse'
-        },
-
-
         nav: [
             { text: '首页', link: '/' },
             { text: '我的', link: '/docs/developer' },
-            { text: '文档', link: '/2' },
+            {
+                text: '文档', items: [
+                    { text: 'Go', link: '/docs/developer/goland/default.md' },
+                    { text: 'Shell', link: '/item-2' },
+                    { text: 'Vue', link: '/item-3' },
+                    { text: 'React', link: '/item-3' },
+                    { text: 'Docker', link: '/item-3' },
+                    { text: 'Git', link: '/item-3' },
+                    { text: '运维', link: '/item-3' },
+                    { text: '易语言', link: '/item-3' },
+                ]
+            },
         ],
 
 
         sidebar: {
             '/docs/developer/goland/': [
                 {
-                    text: 'Goland代码',
+                    aside: true,
+                    text: 'Go语言',
                     items: [
+                        { text: '【介绍】Go语言简介', link: '/docs/developer/goland/default.md' },
                         { text: '【代码】输出彩色日志', link: '/docs/developer/goland/1727608104.md' },
                         { text: '【代码】字符是否为空', link: '/docs/developer/goland/1728203103.md' },
                         { text: '【代码】数据类型转换', link: '/docs/developer/goland/1728203408.md' },
@@ -44,35 +50,46 @@ export default defineConfig({
                     ]
                 }
             ],
-            '/docs/developer/': [
+            '/docs/developer/vue/': [
                 {
-                    text: '前言',
+                    aside: true,
+                    text: 'Vue.js',
                     items: [
-                        { text: '有话说', link: '/docs/developer/index.md' },
+                        { text: '【介绍】Vue.js简介', link: '/docs/developer/vue/default.md' },
                     ]
-                },
+                }
+            ],
+            '/docs/developer/shell/': [
                 {
-                    text: '相关文档',
+                    aside: true,
+                    text: 'Shell',
                     items: [
-                        { text: 'Go语言', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'Shell脚本', link: '/docs/developer/goland/1727608104.md' },
-                        { text: '易语言', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'MySQL', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'PostgreSQL', link: '/docs/developer/goland/1727608104.md' },
-                        { text: '运维', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'Vue', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'JS', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'React', link: '/docs/developer/goland/1727608104.md' },
-                        { text: 'C#', link: '/docs/developer/goland/1727608104.md' },
+                        { text: '【介绍】Shell简介', link: '/docs/developer/shell/default.md' },
+                    ]
+                }
+            ],
+            '/docs/developer/git/': [
+                {
+                    aside: true,
+                    text: 'Git',
+                    items: [
+                        { text: '【介绍】Git简介', link: '/docs/developer/git/default.md' },
+                        { text: '【使用】管理多个Git仓库', link: '/docs/developer/git/1729691506.md' },
                     ]
                 }
             ],
         },
 
 
-
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/ReverseHot' }
-        ]
+            { icon: 'github', link: 'https://github.com/hyhacct' }
+        ],
+
+
+        footer: {
+            message: 'Released under the MIT License.',
+            copyright: 'Copyright © 2024-present Reverse'
+        },
+
     }
 })
