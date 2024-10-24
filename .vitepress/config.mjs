@@ -3,6 +3,12 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
+    vite: {
+        ssr: {
+            noExternal: ['vitepress', '@escook/vitepress-theme']
+        }
+    },
+
     head: [['link', { rel: 'Reverse', href: '/logo_code.png' }]],
 
     lastUpdated: true,
