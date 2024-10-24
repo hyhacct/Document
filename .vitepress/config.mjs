@@ -3,6 +3,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
 
+    head: [['link', { rel: 'Reverse', href: '/logo_code.png' }]],
+
     lastUpdated: true,
 
     title: "Reverse Docs",
@@ -95,6 +97,9 @@ export default defineConfig({
                     items: [
                         { text: '【介绍】运维', link: '/docs/developer/oam/default.md' },
                         { text: '【Nginx】配置HTTPS', link: '/docs/developer/oam/1729744028/index.md' },
+                        { text: '【问题】glibc版本过低', link: '/docs/developer/oam/1729789129/index.md' },
+
+
                     ]
                 }
             ],
@@ -105,6 +110,7 @@ export default defineConfig({
                     text: '工具分享',
                     items: [
                         { text: '【介绍】这是啥?', link: '/docs/tools/default.md' },
+                        { text: '【工具分享】Grapic', link: '/docs/tools/1729786919/index.md' },
                         { text: '【工具分享】JSON转结构体', link: '/docs/tools/1729755703/index.md' },
                         { text: '【工具分享】在线抠图工具', link: '/docs/tools/1729755712/index.md' },
                     ]

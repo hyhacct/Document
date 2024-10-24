@@ -15,8 +15,8 @@ hero:
       link: https://github.com/hyhacct
 
   image:
-    src: "/logo_src.png"
-    alt: "Reverse Logo"
+    src: "/logo_code.png"
+    alt: "Logo"
 
 
 
@@ -24,22 +24,22 @@ features:
   - title: Go
     icon:
       src: "/logo/go.png"
-    details: Go，编程界的“瑞士军刀”，以其简洁和高效著称。它让开发者能够快速构建可靠的软件，就像用一把多功能工具解决各种问题一样方便。
+    details: Go，编程界的“瑞士军刀”，以其简洁和高效著称。
     link: /docs/developer/goland/default.md
   - title: Vue.js
     icon:
       src: "/logo/vue.png"
-    details: Vue.js，前端开发的“巧克力”，既美味又容易上手。它的响应式和组件化特性，让构建动态网页变得轻松愉快，就像享受一块丝滑的巧克力。
+    details: Vue.js，前端开发的“巧克力”，既美味又容易上手。
     link: /docs/developer/vue/default.md
   - title: Shell
     icon:
       src: "/logo/bash.png"
-    details: Shell，命令行的“遥控器”，通过简单的命令就能控制整个系统。它的脚本编程能力，让自动化任务变得简单，就像用遥控器切换电视频道一样轻松。
+    details: Shell，命令行的“遥控器”，通过简单的命令就能控制整个系统。
     link: /docs/developer/shell/default.md
   - title: Git
     icon:
       src: "/logo/git.png"
-    details: Git，代码管理的“安全网”，它的版本控制功能确保了代码的每一次变更都有迹可循。它的分支和合并机制，让团队协作更加顺畅，就像在安全网下练习高空走钢丝。
+    details: Git，代码管理的“安全网”，它的版本控制功能确保了代码的每一次变更都有迹可循。
     link: /docs/developer/git/default.md
 ---
 
