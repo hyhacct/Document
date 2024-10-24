@@ -50,6 +50,7 @@ export default defineConfig({
                     ]
                 }
             ],
+
             '/docs/developer/vue/': [
                 {
                     aside: true,
@@ -63,15 +64,19 @@ export default defineConfig({
                     ]
                 }
             ],
+
             '/docs/developer/shell/': [
                 {
                     aside: true,
                     text: 'Shell',
                     items: [
                         { text: '【介绍】Shell简介', link: '/docs/developer/shell/default.md' },
+                        { text: '【代码】输出彩色消息', link: '/docs/developer/shell/1729769292/index.md' },
+                        { text: '【代码】运算符和表达式', link: '/docs/developer/shell/1729771561/index.md' },
                     ]
                 }
             ],
+
             '/docs/developer/git/': [
                 {
                     aside: true,
@@ -82,6 +87,7 @@ export default defineConfig({
                     ]
                 }
             ],
+
             '/docs/developer/oam/': [
                 {
                     aside: true,
@@ -100,6 +106,7 @@ export default defineConfig({
                     items: [
                         { text: '【介绍】这是啥?', link: '/docs/tools/default.md' },
                         { text: '【工具分享】JSON转结构体', link: '/docs/tools/1729755703/index.md' },
+                        { text: '【工具分享】在线抠图工具', link: '/docs/tools/1729755712/index.md' },
                     ]
                 }
             ],
