@@ -9,6 +9,7 @@ export default defineConfig({
 
     title: "Reverse Docs",
 
+
     description: "🚀 用Go语言搭建火箭，Vue.js让前端起飞！",
 
     themeConfig: {
