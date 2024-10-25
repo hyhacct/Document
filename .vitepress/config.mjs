@@ -66,6 +66,7 @@ export default defineConfig({
                     text: 'Vue.js',
                     items: [
                         { text: '【介绍】Vue.js简介', link: '/docs/developer/vue/default.md' },
+                        { text: '【介绍】vite.config配置', link: '/docs/developer/vue/1729852106/index.md' },
                         { text: '【代码】VsCode代码片段', link: '/docs/developer/vue/1729739980/index.md' },
                         { text: '【代码】Axios二次封装', link: '/docs/developer/vue/1729740466/index.md' },
                         { text: '【代码】JS键值对匹配', link: '/docs/developer/vue/1729747032/index.md' },

@@ -21,11 +21,11 @@ hero:
 
 
 features:
-  - title: Go
+  - title: Git
     icon:
-      src: "/logo/go.png"
-    details: Go，编程界的“瑞士军刀”，以其简洁和高效著称。
-    link: /docs/developer/goland/default.md
+      src: "/logo/git.png"
+    details: Git，代码管理的“安全网”，它的版本控制功能确保了代码的每一次变更都有迹可循。
+    link: /docs/developer/git/default.md
   - title: Vue.js
     icon:
       src: "/logo/vue.png"
@@ -36,10 +36,10 @@ features:
       src: "/logo/bash.png"
     details: Shell，命令行的“遥控器”，通过简单的命令就能控制整个系统。
     link: /docs/developer/shell/default.md
-  - title: Git
+  - title: Go
     icon:
-      src: "/logo/git.png"
-    details: Git，代码管理的“安全网”，它的版本控制功能确保了代码的每一次变更都有迹可循。
-    link: /docs/developer/git/default.md
+      src: "/logo/go.png"
+    details: Go，编程界的“瑞士军刀”，以其简洁和高效著称。
+    link: /docs/developer/goland/default.md
 ---
 
