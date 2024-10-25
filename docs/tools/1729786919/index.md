@@ -94,8 +94,8 @@ go build -o grapic cmd/main.go
 
 ```bash
 mkdir -p ~/grapic/run/default
-cp ~/grapic/vite-project/dist ~/grapic/run/default/
-cp ~/grapic/go-admin/grapic ~/grapic/run/
+mv ~/grapic/vite-project/dist ~/grapic/run/default
+mv ~/grapic/go-admin/grapic ~/grapic/run/
 cd ~/grapic/run/ && chmod +x ./grapic
 ./grapic
 ```
