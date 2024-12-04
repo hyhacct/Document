@@ -30,20 +30,34 @@ export default defineConfig({
             { text: '好东西', link: '/docs/tools/default.md' },
             {
                 text: '文档', items: [
-                    { text: 'Go', link: '/docs/developer/goland/default.md' },
-                    { text: 'Shell', link: '/docs/developer/shell/default.md' },
-                    { text: 'Vue', link: '/docs/developer/vue/default.md' },
-                    // { text: 'React', link: '/item-3' },
-                    // { text: 'Docker', link: '/item-3' },
+                    { text: '夜莺监控', link: '/docs/developer/Nightingale/default.md' },
+                    { text: 'Go语言', link: '/docs/developer/goland/default.md' },
+                    { text: 'Shell脚本', link: '/docs/developer/shell/default.md' },
+                    { text: 'Vue前端', link: '/docs/developer/vue/default.md' },
                     { text: 'Git', link: '/docs/developer/git/default.md' },
-                    { text: '运维', link: '/docs/developer/oam/default.md' },
-                    // { text: '易语言', link: '/item-3' },
+                    { text: '运维知识', link: '/docs/developer/oam/default.md' },
                 ]
             },
         ],
 
 
         sidebar: {
+            '/docs/developer/Nightingale/': [
+                {
+                    aside: true,
+                    text: '夜莺文档',
+                    items: [
+                        { text: '本篇介绍', link: '/docs/developer/Nightingale/default.md' },
+                        { text: '【指标】网络重传', link: '/docs/developer/Nightingale/1733221073/index.md' },
+                        { text: '【指标】网络流量', link: '/docs/developer/Nightingale/1733221611/index.md' },
+                        { text: '【指标】磁盘I/O', link: '/docs/developer/Nightingale/1733222184/index.md' },
+                        { text: '【指标】风扇转速', link: '/docs/developer/Nightingale/1733315750/index.md' },
+                        { text: '【指标】磁盘写延时', link: '/docs/developer/Nightingale/1733316447/index.md' },
+                        { text: '【指标】磁盘读延时', link: '/docs/developer/Nightingale/1733317015/index.md' },
+                    ]
+                }
+            ],
+
             '/docs/developer/goland/': [
                 {
                     aside: true,
