@@ -1,5 +1,6 @@
 ---
 title: "夜莺监控"
+titleTemplate: 流量采集
 ---
 
 ## categref配置

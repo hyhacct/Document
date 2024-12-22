@@ -1,5 +1,6 @@
 ---
 title: "夜莺监控"
+titleTemplate: 配置磁盘I/O插件
 ---
 
 ## categref配置

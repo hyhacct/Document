@@ -1,5 +1,6 @@
 ---
 title: "夜莺监控"
+titleTemplate: 配置磁盘读性能监控
 ---
 
 ## categref配置

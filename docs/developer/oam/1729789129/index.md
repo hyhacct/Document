@@ -1,5 +1,6 @@
 ---
-title: glibc 和 libstdc++ 版本过低
+title: "运维"
+titleTemplate: 安装 glibc 2.27 解决 glibc 版本过低问题
 ---
 
 

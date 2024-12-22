@@ -1,5 +1,6 @@
 ---
-title: "运维 - Nginx"
+title: "运维"
+titleTemplate: 配置Nginx SSL证书
 ---
 
 ## 配置SSL证书

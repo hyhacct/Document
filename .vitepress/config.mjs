@@ -30,12 +30,12 @@ export default defineConfig({
             { text: '好东西', link: '/docs/tools/default.md' },
             {
                 text: '文档', items: [
-                    { text: '夜莺监控', link: '/docs/developer/Nightingale/default.md' },
-                    { text: 'Go语言', link: '/docs/developer/goland/default.md' },
-                    { text: 'Shell脚本', link: '/docs/developer/shell/default.md' },
-                    { text: 'Vue前端', link: '/docs/developer/vue/default.md' },
+                    { text: '夜莺', link: '/docs/developer/Nightingale/default.md' },
+                    { text: 'Go', link: '/docs/developer/goland/default.md' },
+                    { text: 'Shell', link: '/docs/developer/shell/default.md' },
+                    { text: 'Vue', link: '/docs/developer/vue/default.md' },
                     { text: 'Git', link: '/docs/developer/git/default.md' },
-                    { text: '运维知识', link: '/docs/developer/oam/default.md' },
+                    { text: '运维', link: '/docs/developer/oam/default.md' },
                 ]
             },
         ],
@@ -45,7 +45,7 @@ export default defineConfig({
             '/docs/developer/Nightingale/': [
                 {
                     aside: true,
-                    text: '夜莺文档',
+                    text: '夜莺指标',
                     items: [
                         { text: '本篇介绍', link: '/docs/developer/Nightingale/default.md' },
                         { text: '【指标】网络重传', link: '/docs/developer/Nightingale/1733221073/index.md' },
@@ -106,8 +106,9 @@ export default defineConfig({
                     aside: true,
                     text: 'Git',
                     items: [
-                        { text: '【介绍】Git简介', link: '/docs/developer/git/default.md' },
-                        { text: '【使用】管理多个Git仓库', link: '/docs/developer/git/1729691506/index.md' },
+                        { text: '介绍', link: '/docs/developer/git/default.md' },
+                        { text: '管理多个GitHub仓库', link: '/docs/developer/git/1729691506/index.md' },
+                        { text: '设置部署秘钥', link: '/docs/developer/git/1734853539/index.md' },
                     ]
                 }
             ],
@@ -117,11 +118,15 @@ export default defineConfig({
                     aside: true,
                     text: '运维',
                     items: [
-                        { text: '【介绍】运维', link: '/docs/developer/oam/default.md' },
-                        { text: '【Nginx】配置HTTPS', link: '/docs/developer/oam/1729744028/index.md' },
-                        { text: '【问题】glibc版本过低', link: '/docs/developer/oam/1729789129/index.md' },
-
-
+                        { text: '介绍', link: '/docs/developer/oam/default.md' },
+                        { text: 'Nginx配置HTTPS', link: '/docs/developer/oam/1729744028/index.md' },
+                        { text: 'glibc版本过低', link: '/docs/developer/oam/1729789129/index.md' },
+                        { text: 'Linux清理虚拟设备', link: '/docs/developer/oam/1734848858/index.md' },
+                        { text: '浪潮切换UEFI到Legacy', link: '/docs/developer/oam/1734849955/index.md' },
+                        { text: '浪潮拆分PCIE卡', link: '/docs/developer/oam/1734850939/index.md' },
+                        { text: 'Dell修改IPMI地址', link: '/docs/developer/oam/1734851126/index.md' },
+                        { text: 'Dell远程介质重装', link: '/docs/developer/oam/1734852238/index.md' },
+                        { text: 'categref心跳失败', link: '/docs/developer/oam/1734856138/index.md' },
                     ]
                 }
             ],

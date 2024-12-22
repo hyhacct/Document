@@ -1,5 +1,6 @@
 ---
 title: "夜莺监控"
+titleTemplate: 配置IPMI监控插件
 ---
 
 ## categref配置
