@@ -8,8 +8,8 @@ hero:
   tagline: 🚀 用Go语言搭建火箭，Vue.js让前端起飞！
   actions:
     - theme: brand
-      text: 开始阅读
-      link: /docs/developer/goland/default.md
+      text: Look Look
+      link: /docs/author/index.md
     - theme: alt
       text: 前往GitHub
       link: https://github.com/hyhacct
@@ -34,7 +34,7 @@ features:
   - title: Shell
     icon:
       src: "/logo/bash.png"
-    details: Shell，命令行的“遥控器”，通过简单的命令就能控制整个系统。
+    details: Bash Shell，鬼画符。
     link: /docs/developer/shell/default.md
   - title: Go
     icon:

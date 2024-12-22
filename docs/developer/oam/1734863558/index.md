@@ -181,12 +181,12 @@ Hint: Some lines were ellipsized, use -l to show in full.
 我们再试试重启容器：
 
 ```bash
-[root@yf-92097-yd-js-c5077f77c6 ~]# docker restart -t1 tools-nginx-1
+[root@localhost ~]# docker restart -t1 tools-nginx-1
 tools-nginx-1
-[root@yf-92097-yd-js-c5077f77c6 ~]# docker ps -a 
+[root@localhost ~]# docker ps -a 
 CONTAINER ID   IMAGE                    COMMAND                  CREATED          STATUS                                    PORTS     NAMES
 0b68949ab785   xxxxxxxxxxxxxx   "tini -- sh -c 'bash…"   11 minutes ago   Up 8 seconds                                        tools-nginx-1
-[root@yf-92097-yd-js-c5077f77c6 ~]# docker ps -a 
+[root@localhost ~]# docker ps -a 
 ```
 
 可以看到容器已经重启成功，那么至此 `containerd` 服务异常的问题就解决了，得出结论，数据库文件损坏导致的`containerd`服务异常，可以尝试删除数据库文件，重建后再启动`containerd`服务。

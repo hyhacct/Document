@@ -63,13 +63,13 @@ export default defineConfig({
                     aside: true,
                     text: 'Go语言',
                     items: [
-                        { text: '【介绍】Go语言简介', link: '/docs/developer/goland/default.md' },
-                        { text: '【代码】输出彩色日志', link: '/docs/developer/goland/1727608104/index.md' },
-                        { text: '【代码】字符是否为空', link: '/docs/developer/goland/1728203103/index.md' },
-                        { text: '【代码】数据类型转换', link: '/docs/developer/goland/1728203408/index.md' },
-                        { text: '【代码】生成随机文本', link: '/docs/developer/goland/1728203584/index.md' },
-                        { text: '【代码】时间类型转换', link: '/docs/developer/goland/1728203747/index.md' },
-                        { text: '【代码】Base64编码', link: '/docs/developer/goland/1728204331/index.md' },
+                        { text: '介绍', link: '/docs/developer/goland/default.md' },
+                        { text: '输出彩色日志', link: '/docs/developer/goland/1727608104/index.md' },
+                        { text: '字符是否为空', link: '/docs/developer/goland/1728203103/index.md' },
+                        { text: '数据类型转换', link: '/docs/developer/goland/1728203408/index.md' },
+                        { text: '生成随机文本', link: '/docs/developer/goland/1728203584/index.md' },
+                        { text: '时间类型转换', link: '/docs/developer/goland/1728203747/index.md' },
+                        { text: 'Base64编码', link: '/docs/developer/goland/1728204331/index.md' },
                     ]
                 }
             ],
@@ -79,12 +79,12 @@ export default defineConfig({
                     aside: true,
                     text: 'Vue.js',
                     items: [
-                        { text: '【介绍】Vue.js简介', link: '/docs/developer/vue/default.md' },
-                        { text: '【介绍】vite.config配置', link: '/docs/developer/vue/1729852106/index.md' },
-                        { text: '【代码】VsCode代码片段', link: '/docs/developer/vue/1729739980/index.md' },
-                        { text: '【代码】Axios二次封装', link: '/docs/developer/vue/1729740466/index.md' },
-                        { text: '【代码】JS键值对匹配', link: '/docs/developer/vue/1729747032/index.md' },
-                        { text: '【代码】本地存储数据', link: '/docs/developer/vue/1729752187/index.md' },
+                        { text: '介绍', link: '/docs/developer/vue/default.md' },
+                        { text: 'vite.config配置', link: '/docs/developer/vue/1729852106/index.md' },
+                        { text: 'VsCode代码片段', link: '/docs/developer/vue/1729739980/index.md' },
+                        { text: 'Axios二次封装', link: '/docs/developer/vue/1729740466/index.md' },
+                        { text: 'JS键值对匹配', link: '/docs/developer/vue/1729747032/index.md' },
+                        { text: '本地存储数据', link: '/docs/developer/vue/1729752187/index.md' },
                     ]
                 }
             ],
@@ -94,9 +94,9 @@ export default defineConfig({
                     aside: true,
                     text: 'Shell',
                     items: [
-                        { text: '【介绍】Shell简介', link: '/docs/developer/shell/default.md' },
-                        { text: '【代码】输出彩色消息', link: '/docs/developer/shell/1729769292/index.md' },
-                        { text: '【代码】运算符和表达式', link: '/docs/developer/shell/1729771561/index.md' },
+                        { text: '介绍', link: '/docs/developer/shell/default.md' },
+                        { text: '输出彩色消息', link: '/docs/developer/shell/1729769292/index.md' },
+                        { text: '运算符和表达式', link: '/docs/developer/shell/1729771561/index.md' },
                     ]
                 }
             ],
@@ -109,6 +109,7 @@ export default defineConfig({
                         { text: '介绍', link: '/docs/developer/git/default.md' },
                         { text: '管理多个GitHub仓库', link: '/docs/developer/git/1729691506/index.md' },
                         { text: '设置部署秘钥', link: '/docs/developer/git/1734853539/index.md' },
+                        { text: 'Actions实现CI/CD', link: '/docs/developer/git/1734865243/index.md' },
                     ]
                 }
             ],
@@ -137,10 +138,10 @@ export default defineConfig({
                     aside: true,
                     text: '工具分享',
                     items: [
-                        { text: '【介绍】这是啥?', link: '/docs/tools/default.md' },
-                        { text: '【工具分享】Grapic', link: '/docs/tools/1729786919/index.md' },
-                        { text: '【工具分享】JSON转结构体', link: '/docs/tools/1729755703/index.md' },
-                        { text: '【工具分享】在线抠图工具', link: '/docs/tools/1729755712/index.md' },
+                        { text: '介绍', link: '/docs/tools/default.md' },
+                        { text: 'Grapic', link: '/docs/tools/1729786919/index.md' },
+                        { text: 'JSON转结构体', link: '/docs/tools/1729755703/index.md' },
+                        { text: '在线抠图工具', link: '/docs/tools/1729755712/index.md' },
                     ]
                 }
             ],
