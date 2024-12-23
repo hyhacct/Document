@@ -1,5 +1,6 @@
 ---
 title: 工具分享
+description: 介绍一款好用的工具，可以快速生成JSON转Go结构体。
 ---
 
 

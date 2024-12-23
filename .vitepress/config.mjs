@@ -36,6 +36,7 @@ export default defineConfig({
                     { text: 'Vue', link: '/docs/developer/vue/default.md' },
                     { text: 'Git', link: '/docs/developer/git/default.md' },
                     { text: '运维', link: '/docs/developer/oam/default.md' },
+                    { text: 'MacOS', link: '/docs/developer/macos/default.md' },
                 ]
             },
         ],
@@ -142,6 +143,7 @@ export default defineConfig({
                         { text: 'Grapic', link: '/docs/tools/1729786919/index.md' },
                         { text: 'JSON转结构体', link: '/docs/tools/1729755703/index.md' },
                         { text: '在线抠图工具', link: '/docs/tools/1729755712/index.md' },
+                        { text: '密码管理器', link: '/docs/tools/1734930126/index.md' },
                     ]
                 }
             ],
