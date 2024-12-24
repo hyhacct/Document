@@ -130,6 +130,7 @@ export default defineConfig({
                         { text: 'Dell远程介质重装', link: '/docs/developer/oam/1734852238/index.md' },
                         { text: 'categref心跳失败', link: '/docs/developer/oam/1734856138/index.md' },
                         { text: 'Docker守护进程错误', link: '/docs/developer/oam/1734863558/index.md' },
+                        { text: 'CentOS反向打包RPM', link: '/docs/developer/oam/1735038191/index.md' },
                     ]
                 }
             ],
