@@ -1,9 +1,10 @@
 ---
-title: "Shell 脚本编程"
+title: "Shell"
+titleTemplate: 基础知识
 ---
 
 
-# 介绍
+# 概述
 
 这篇文档稍微介绍一下Shell中的运算符和表达式，了解他们的基础用法，这是很有必要的。
 
