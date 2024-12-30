@@ -135,6 +135,7 @@ export default defineConfig({
                         { text: 'categref心跳失败', link: '/docs/developer/oam/1734856138/index.md' },
                         { text: 'Docker守护进程错误', link: '/docs/developer/oam/1734863558/index.md' },
                         { text: 'CentOS反向打包RPM', link: '/docs/developer/oam/1735038191/index.md' },
+                        { text: '部署VictoriaMetrics集群', link: '/docs/developer/oam/1735479737/index.md' },
                     ]
                 }
             ],
