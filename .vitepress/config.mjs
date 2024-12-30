@@ -20,8 +20,15 @@ export default defineConfig({
 
     themeConfig: {
 
+        // 启用搜索功能
+        search: {
+            provider: 'local'
+        },
+
+        // 设置导航栏logo
         logo: '/logo_reverse_none_back.png',
 
+        // 设置标题
         siteTitle: 'Reverse',
 
 
@@ -29,7 +36,7 @@ export default defineConfig({
             { text: '首页', link: '/' },
             { text: '好东西', link: '/docs/tools/default.md' },
             {
-                text: '文档', items: [
+                text: '更多文档', items: [
                     { text: '夜莺', link: '/docs/developer/n9e/default.md' },
                     { text: 'Go', link: '/docs/developer/goland/default.md' },
                     { text: 'Shell', link: '/docs/developer/shell/default.md' },
