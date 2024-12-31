@@ -21,18 +21,36 @@ apt install -y coturn ufw
 
 修改配置文件`/etc/turnserver.conf`，这里就直接展示我的配置文件：
 
-```bash
+可以选择直接使用我这份配置，CV工程师就行了。
+
+
+
+::: code-group
+```config [配置文件内容]
+listening-port=3478
+listening-ip=0.0.0.0
+syslog
+stun-only
+response-origin-only-with-rfc5780
+```
+
+
+```bash [执行结果]
 root@localhost:~# grep '^#' -v /etc/turnserver.conf | awk 'NF'
 listening-port=3478
 listening-ip=0.0.0.0
 syslog
 stun-only
 response-origin-only-with-rfc5780
-root@localhost:~# 
 ```
+:::
+
+
+
+
 
 > [!WARNING]
-> 注意下，这里启用stun的话要单机具备两个公网IP，否则可能无法正常工作。
+> 注意下，这里启用stun的话要单机具备两个公网IP，否则测试结果可能不准确。
 
 上面这些就是启用的选项，因为只使用`stun`所以启用这些就可以用的。
 
@@ -50,11 +68,18 @@ root@localhost:~#
 
 直接启用`coturn`服务，确保服务运行正常
 
-```bash
+::: code-group
+```bash [systemd]
 systemctl restart coturn
-# OR
-/etc/init.d/coturn restart
 ```
+
+```bash [init.d]
+/etc/init.d/coturn restart # 如果没有systemd, 就用这个命令
+```
+:::
+
+
+
 
 ## 防火墙设置
 
@@ -80,3 +105,23 @@ stun x.x.x.x
 
 ![001](./001.png)
 
+看到了奥，这个就表示正常了，如果不正常的话他应该会输出:
+
+```txt
+root@localhost:~# stun x.x.x.x
+STUN client version 0.97
+Primary: Blocked or could not reach STUN server  // [!code focus]
+Return value is 0x00001c
+root@localhost:~# 
+```
+
+
+## 总结
+
+1. 安装`coturn`和`ufw`
+2. 配置`turnserver.conf`文件
+3. 启动`coturn`服务
+4. 防火墙开放`3478`端口
+5. 验证`turnserver`是否正常运行
+
+以上就是大概步骤，需其他功能可能还要根据实际情况调整。

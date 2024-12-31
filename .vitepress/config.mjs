@@ -143,7 +143,7 @@ export default defineConfig({
                         { text: 'Docker守护进程错误', link: '/docs/developer/oam/1734863558/index.md' },
                         { text: 'CentOS反向打包RPM', link: '/docs/developer/oam/1735038191/index.md' },
                         { text: '部署VictoriaMetrics集群', link: '/docs/developer/oam/1735479737/index.md' },
-                        { text: 'NAT类型介绍', link: '/docs/developer/oam/1735618274/index.md' },
+                        { text: '介绍NAT类型', link: '/docs/developer/oam/1735618274/index.md' },
                         { text: '部署NAT服务端', link: '/docs/developer/oam/1735631477/index.md' },
                     ]
                 }
