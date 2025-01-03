@@ -7,14 +7,11 @@ description: 介绍一款开源工具
 
 <Badge type="info" text="GitHub" /> [项目开源地址](https://github.com/hyhacct/grapic)
 
-这里介绍一款开源工具，名字叫 Grapic, 功能可能不全，还在开发中(欢迎各位提意见助我改进)，由于前后端基础不是很牢固(非专业开发)所以代码可能会看起来比较乱。
+这里介绍一款开源工具，名字叫 Grapic, 功能可能不全，还在开发中，因为前后端基础不是很牢固(非专业开发)所以代码可能会看起来比较乱。
 
-开发这款工具主要是因为受到了朋友的启发，就是他:point_right: [苦瓜](https://www.yuque.com/wangsendi) :point_left:
+开发这款工具主要是因为看见朋友在用类似功能的一款工具，就是他:point_right: [苦瓜](https://www.yuque.com/wangsendi) :point_left:
 
-当时看他正好在使用一个叫`PrivateBin`的工具,觉得好像不错的样子，于是就想着能不能开发一个类似的工具，于是就开始了堆起了屎山:zany_face:。
-
-那么开始介绍一下这款工具，以及如何部署。
-
+当时看他正好在使用一个叫`PrivateBin`的工具,觉得好像不错的样子，然后就想着能不能开发一个类似的东西，再然后就直接开搞了。
 
 
 ## 功能

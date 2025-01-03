@@ -6,7 +6,7 @@ titleTemplate: 使用GitHub Actions进行CI/CD
 
 # 概述
 
-前段时间我一直在思考，我这云服务器用来部署这个文档的话，有什么轻量并且可靠点的工具来帮我实现CI/CD？
+有段时间我一直在思考，我这云服务器用来部署这个文档的话，有什么轻量并且可靠点的工具来帮我实现CI/CD？
 
 你还真别说，研究了一番发现了这个问题的答案是：`GitHub Actions`。
 
@@ -95,14 +95,14 @@ jobs:
     runs-on: ubuntu-latest
 ```
 
-3. 拉取代码
+### 3. 拉取代码
 
 ```yaml
     - name: Checkout code
       uses: actions/checkout@v4  # 拉取代码
 ```
 
-4. 安装 Node.js
+### 4. 安装 Node.js
 
 ```yaml
     - name: Set up Node.js
@@ -112,7 +112,7 @@ jobs:
         cache: 'npm'          # 缓存 npm 依赖，加快构建速度
 ```
 
-5. 安装依赖并构建
+### 5. 安装依赖并构建
 
 ```yaml
     - name: Install dependencies and build
@@ -121,7 +121,7 @@ jobs:
         npm run docs:build    # 执行构建
 ```
 
-6. 设置 SSH 连接
+### 6. 设置 SSH 连接
 
 ```yaml
     - name: Set up SSH
@@ -135,7 +135,7 @@ jobs:
         ssh-keyscan -H ${{ secrets.SERVER_IP }} >> ~/.ssh/known_hosts   # 添加服务器公钥
 ```
 
-7. 部署到服务器
+### 7. 部署到服务器
 
 ```yaml
     - name: Deploy to server

@@ -115,13 +115,30 @@ VictoriaMetrics:
 
 ## 下载 VictoriaMetrics
 
-需要去`github`下载二进制文件，访问文档[在这里](https://github.com/VictoriaMetrics/VictoriaMetrics/releases)
+需要去`github`下载二进制文件，访问文档[在这里](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.108.1)
+
+这里目前我选择的是`v1.108.1`版本，并且架构是`amd64`，运行环境为`linux`，下载后缀为`.tar.gz`的压缩包。
 
 打开后选择你需要的版本即可，注意一下要避免文件名字带有`enterprise`字样的，这是企业版，我们用开源版就行了。
 
-比如我这里下载的是`victoria-metrics-darwin-amd64-v1.108.1-cluster.tar.gz`
+比如我这里下载的是`victoria-metrics-linux-amd64-v1.108.1-cluster.tar.gz`
 
 ![001](./001.png)
+
+
+这里介绍下这几个版本的区别：
+
+- `victoria-metrics-linux-amd64-v1.108.1-cluster.tar.gz`：这是开源版本，支持集群模式。
+- `victoria-metrics-linux-amd64-v1.108.1-enterprise-cluster.tar.gz`：这是企业版，支持集群模式。
+- `victoria-metrics-linux-amd64-v1.108.1-enterprise.tar.gz`：这是企业版，仅支持单机模式。
+- `victoria-metrics-linux-amd64-v1.108.1.tar.gz`：这是开源版本，仅支持单机模式。
+
+1. `victoria-metrics` 是项目名，应该不用多说。
+2. `linux` 是运行环境，这里我们选择`linux`。
+3. `amd64` 是架构，这里我们选择`amd64`。
+4. `v1.108.1` 是版本号，这里我们选择`v1.108.1`。
+5. `cluster` 是集群模式，这里我们选择`cluster`。
+6. `enterprise` 是企业版，我们一般免费版就够用。
 
 
 ## 启动 VictoriaMetrics
@@ -147,7 +164,7 @@ VictoriaMetrics:
 
 ```bash
 _path_bin="/opt/victoria-metrics"
-tar -zxvf victoria-metrics-darwin-amd64-v1.108.1-cluster.tar.gz -C "$_path_bin"
+tar -zxvf victoria-metrics-linux-amd64-v1.108.1-cluster.tar.gz -C "$_path_bin"
 ```
 
 解压完成后我们就可以开始启动了，他不需要修改配置文件(因为根本没有配置文件)。

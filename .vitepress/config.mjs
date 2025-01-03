@@ -25,8 +25,10 @@ export default defineConfig({
             provider: 'local'
         },
 
+
         // 设置导航栏logo
         logo: '/logo_reverse_none_back.png',
+
 
         // 设置标题
         siteTitle: 'Reverse',
@@ -109,6 +111,8 @@ export default defineConfig({
                         { text: 'glances选项介绍', link: '/docs/developer/shell/1735102139/index.md' },
                         { text: 'mtr选项介绍', link: '/docs/developer/shell/1735215290/index.md' },
                         { text: 'dmidecode介绍', link: '/docs/developer/shell/1735220755/index.md' },
+                        { text: '三剑客awk篇', link: '/docs/developer/shell/1735822642/index.md' },
+                        { text: '三剑客grep篇', link: '/docs/developer/shell/1735824301/index.md' },
                     ]
                 }
             ],
