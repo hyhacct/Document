@@ -132,6 +132,7 @@ export default defineConfig({
                         { text: '管理多个GitHub仓库', link: '/docs/developer/git/1729691506/index.md' },
                         { text: '设置部署秘钥', link: '/docs/developer/git/1734853539/index.md' },
                         { text: 'Actions实现CI/CD', link: '/docs/developer/git/1734865243/index.md' },
+                        { text: '设置用户名和邮箱', link: '/docs/developer/git/1736227185/index.md' },
                     ]
                 }
             ],
