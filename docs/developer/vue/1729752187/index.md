@@ -1,5 +1,6 @@
 ---
 title: Vue.js
+titleTemplate: Vue实现本地存储localStorage
 ---
 
 

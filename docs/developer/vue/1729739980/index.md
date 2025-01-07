@@ -1,5 +1,6 @@
 ---
 title: Vue.js
+titleTemplate: Vscode中为Vue.js配置代码片段
 ---
 
 

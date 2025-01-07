@@ -1,5 +1,6 @@
 ---
 title: Vue.js
+titleTemplate: Vue二次封装Axios
 ---
 
 

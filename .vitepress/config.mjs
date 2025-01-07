@@ -81,6 +81,8 @@ export default defineConfig({
                         { text: '生成随机文本', link: '/docs/developer/goland/1728203584/index.md' },
                         { text: '时间类型转换', link: '/docs/developer/goland/1728203747/index.md' },
                         { text: 'Base64编码', link: '/docs/developer/goland/1728204331/index.md' },
+                        { text: 'Xorm框架属性介绍', link: '/docs/developer/goland/1736147130/index.md' },
+                        { text: 'Xorm框架名称映射', link: '/docs/developer/goland/1736149796/index.md' },
                     ]
                 }
             ],
@@ -96,6 +98,10 @@ export default defineConfig({
                         { text: 'Axios二次封装', link: '/docs/developer/vue/1729740466/index.md' },
                         { text: 'JS键值对匹配', link: '/docs/developer/vue/1729747032/index.md' },
                         { text: '本地存储数据', link: '/docs/developer/vue/1729752187/index.md' },
+                        { text: '表单rules规则介绍', link: '/docs/developer/vue/1736226138/index.md' },
+
+
+
                     ]
                 }
             ],
@@ -126,6 +132,17 @@ export default defineConfig({
                         { text: '管理多个GitHub仓库', link: '/docs/developer/git/1729691506/index.md' },
                         { text: '设置部署秘钥', link: '/docs/developer/git/1734853539/index.md' },
                         { text: 'Actions实现CI/CD', link: '/docs/developer/git/1734865243/index.md' },
+                    ]
+                }
+            ],
+
+            '/docs/developer/macos/': [
+                {
+                    aside: true,
+                    text: 'MacOS',
+                    items: [
+                        { text: '介绍', link: '/docs/developer/macos/default.md' },
+                        { text: 'oh-my-zsh安装配置', link: '/docs/developer/macos/1735967221/index.md' },
                     ]
                 }
             ],

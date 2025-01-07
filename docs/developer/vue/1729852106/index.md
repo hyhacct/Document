@@ -1,8 +1,9 @@
 ---
 title: Vue.js
+titleTemplate: vite.config.js 配置介绍
 ---
 
-## vite.config.js 配置介绍
+## 概述
 
 vite.config.js 是 Vite 的配置文件，它是一个 CommonJS 模块，导出一个函数，接收一个参数 `defineConfig`，返回一个配置对象。
 

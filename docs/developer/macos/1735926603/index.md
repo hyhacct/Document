@@ -15,3 +15,8 @@ titleTemplate: Karabiner-Elements 配置
 下载最新MacOS版本，安装后就可以在`启动台`里面看见了。
 
 ![001](./001.png)
+
+
+## 配置
+
+打开`Karabiner-Elements`软件，点击左上角的`Preferences`按钮，进入设置页面。
