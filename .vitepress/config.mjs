@@ -145,6 +145,7 @@ export default defineConfig({
                     items: [
                         { text: '介绍', link: '/docs/developer/macos/default.md' },
                         { text: 'oh-my-zsh安装配置', link: '/docs/developer/macos/1735967221/index.md' },
+                        { text: 'karabiner使用', link: '/docs/developer/macos/1736428296/index.md' },
                     ]
                 }
             ],
@@ -168,6 +169,7 @@ export default defineConfig({
                         { text: '部署VictoriaMetrics集群', link: '/docs/developer/oam/1735479737/index.md' },
                         { text: '介绍NAT类型', link: '/docs/developer/oam/1735618274/index.md' },
                         { text: '部署NAT服务端', link: '/docs/developer/oam/1735631477/index.md' },
+                        { text: 'MySQL8.0多线程优化', link: '/docs/developer/oam/1736427395/index.md' },
                     ]
                 }
             ],
