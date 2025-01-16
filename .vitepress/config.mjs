@@ -123,6 +123,10 @@ export default defineConfig({
                             text: "Xorm框架名称映射",
                             link: "/docs/developer/goland/1736149796/index.md",
                         },
+                        {
+                            text: "Gin框架解决跨域配置",
+                            link: "/docs/developer/goland/1736854973/index.md",
+                        },
                     ],
                 },
             ],
@@ -159,11 +163,15 @@ export default defineConfig({
                         },
                         {
                             text: "Router路由",
-                            link: "/docs/developer/vue/1736226138/index.md",
+                            link: "/docs/developer/vue/1736688889/index.md",
                         },
                         {
                             text: "Pinia状态管理",
                             link: "/docs/developer/vue/1736741096/index.md",
+                        },
+                        {
+                            text: "try及Promise异常处理",
+                            link: "/docs/developer/vue/1737001716/index.md",
                         },
                     ],
                 },
