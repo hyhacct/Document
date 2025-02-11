@@ -30,7 +30,8 @@ export default defineConfig({
 
         nav: [
             { text: "首页", link: "/" },
-            { text: "好东西", link: "/docs/tools/default.md" },
+            { text: "好东西", link: "/docs/tools-good/default.md" },
+            { text: "脏东西", link: "/docs/tools-grey/default.md" },
             {
                 text: "更多文档",
                 items: [
@@ -351,16 +352,32 @@ export default defineConfig({
                 },
             ],
 
-            "/docs/tools/": [
+            "/docs/tools-good/": [
                 {
                     aside: true,
                     text: "工具分享",
                     items: [
-                        { text: "介绍", link: "/docs/tools/default.md" },
-                        { text: "Grapic", link: "/docs/tools/1729786919/index.md" },
-                        { text: "JSON转结构体", link: "/docs/tools/1729755703/index.md" },
-                        { text: "在线抠图工具", link: "/docs/tools/1729755712/index.md" },
-                        { text: "密码管理器", link: "/docs/tools/1734930126/index.md" },
+                        { text: "介绍", link: "/docs/tools-good/default.md" },
+                        { text: "Grapic", link: "/docs/tools-good/1729786919/index.md" },
+                        { text: "JSON转结构体", link: "/docs/tools-good/1729755703/index.md" },
+                        { text: "在线抠图工具", link: "/docs/tools-good/1729755712/index.md" },
+                        { text: "密码管理器", link: "/docs/tools-good/1734930126/index.md" },
+                    ],
+                },
+            ],
+
+
+
+            "/docs/tools-grey/": [
+                {
+                    aside: true,
+                    text: "逆向破解",
+                    items: [
+                        { text: "介绍", link: "/docs/tools-grey/default.md" },
+                        { text: "hydra-九头蛇", link: "/docs/tools-grey/1739262373/index.md" },
+                        { text: "Nmap", link: "/docs/tools-grey/1739263428/index.md" },
+
+
                     ],
                 },
             ],
