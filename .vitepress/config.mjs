@@ -43,6 +43,8 @@ export default defineConfig({
                     { text: "运维", link: "/docs/developer/oam/default.md" },
                     { text: "MacOS", link: "/docs/developer/macos/default.md" },
                     { text: "Python", link: "/docs/developer/python/default.md" },
+                    { text: "Csharp", link: "/docs/developer/csharp/default.md" },
+                    { text: "Kubernetes", link: "/docs/developer/kubernetes/default.md" },
                 ],
             },
         ],
@@ -261,12 +263,24 @@ export default defineConfig({
                     items: [
                         { text: "介绍", link: "/docs/developer/macos/default.md" },
                         {
+                            text: "部署Homebrew",
+                            link: "/docs/developer/macos/1739682244/index.md",
+                        },
+                        {
                             text: "oh-my-zsh安装配置",
                             link: "/docs/developer/macos/1735967221/index.md",
                         },
                         {
+                            text: "常用zsh插件",
+                            link: "/docs/developer/macos/1739682540/index.md",
+                        },
+                        {
                             text: "karabiner使用",
                             link: "/docs/developer/macos/1736428296/index.md",
+                        },
+                        {
+                            text: "配置Terminal字体",
+                            link: "/docs/developer/macos/1739680394/index.md",
                         },
                     ],
                 },
@@ -376,8 +390,30 @@ export default defineConfig({
                         { text: "介绍", link: "/docs/tools-grey/default.md" },
                         { text: "hydra-九头蛇", link: "/docs/tools-grey/1739262373/index.md" },
                         { text: "Nmap", link: "/docs/tools-grey/1739263428/index.md" },
+                    ],
+                },
+            ],
 
 
+            "/docs/developer/csharp/": [
+                {
+                    aside: true,
+                    text: "C#",
+                    items: [
+                        { text: "介绍", link: "/docs/developer/csharp/default.md" },
+                    ],
+                },
+            ],
+
+
+
+            "/docs/developer/kubernetes/": [
+                {
+                    aside: true,
+                    text: "Kubernetes",
+                    items: [
+                        { text: "介绍", link: "/docs/developer/kubernetes/default.md" },
+                        { text: "安装配置", link: "/docs/developer/kubernetes/1739513102/index.md" },
                     ],
                 },
             ],
